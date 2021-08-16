@@ -1,8 +1,10 @@
 1. Check out this website which visualises the loss surface for neural networks. Hopefully this illustrates how much more challenging NN optimisation is compared to that of more simple models.
+    - http://losslandscape.com
     - Watch the landing page video
     - Read the section on the method to understand how we can visualise the very high dimensional parameter space in 2d
     - Check out the section showing the loss surface changing with each batch
 2. Watch 3Blue1Brown talk through how neural networks learn using gradient descent 
+    - https://www.youtube.com/watch?v=IHZwWFHWa-w&t=1125s
 3. Read through the notebook
 4. Read sections 8-8.2.8 of the deep learning book on optimisation for deep learning
 5. Work through the challenges in groups
@@ -20,6 +22,7 @@
         - Gradient based?
         - Other parameters than learning rate
         - Requires keeping track of internal parameters?
+7. Find the best resource online for optimisers and share it
 
 ## More Detail
 1. Read further into the basic optimisation algorithms covered in the notebook in section 8.3-8.3.3 of the deep learning book
