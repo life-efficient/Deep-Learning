@@ -1,0 +1,18 @@
+- name: Dropout in PyTorch
+  description: |
+    - Add dropout layers to a network and create a training loop to compare it's performance
+      - At what rate does the loss curve progress compared without batch norm?
+      - How does generalisation compare?
+    - Can you integrate dropout into your model experimentation/evaluation/comparison code you've used previously?
+    - Explore dropping out layers with different probabilities. 
+  
+- name: Implementing your own dropout layer
+  description: |
+    - Create a class which inherits from torch.nn.Module
+    - Initialise the probability with which layers will be dropped out with by passing in a value named `p`
+      - assert that 0 < `p` < 1
+    - Implement the forward pass
+      - Create a mask (a vector of the same shape as the input) containing ones or zeros, with the probability of an element being zero equal to `p`
+      - Perform an element-wise multiplication of this mask and the input to drop out some connections
+      - Return the dropped out input
+    - Add this custom dropout layer to a neural network and check that it works similarly to the pytorch layer
