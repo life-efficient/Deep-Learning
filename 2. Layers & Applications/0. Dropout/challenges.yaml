@@ -1,7 +1,7 @@
 - name: Dropout in PyTorch
   description: |
     - Add dropout layers to a network and create a training loop to compare it's performance
-      - At what rate does the loss curve progress compared without batch norm?
+      - At what rate does the loss curve progress compared without dropout?
       - How does generalisation compare?
     - Can you integrate dropout into your model experimentation/evaluation/comparison code you've used previously?
     - Explore dropping out layers with different probabilities. 
