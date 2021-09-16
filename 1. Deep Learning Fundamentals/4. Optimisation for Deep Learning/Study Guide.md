@@ -23,6 +23,7 @@
         - Other parameters than learning rate
         - Requires keeping track of internal parameters?
 7. Find the best resource online for optimisers and share it
+8. Read about AdaBound, which combines SGD and Adam, [here](https://github.com/Luolc/AdaBound)
 
 ## More Detail
 1. Read further into the basic optimisation algorithms covered in the notebook in section 8.3-8.3.3 of the deep learning book
